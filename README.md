@@ -1,8 +1,11 @@
-# React + Vite
+## Password strength checker
+Checks and displays a message below the input that shows the strength of the password based on following criteria:
+* Weak: Password is less than 6 characters.
+* Medium: Password contains at least 6 characters and includes both letters and numbers.
+* Strong: Password contains at least 8 characters and includes letters, numbers, and special characters.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Also, the messages are color coded to red for weak, orange for medium, and green for strong.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Technologies used
+* React using useState hook.
+* CSS for styling
