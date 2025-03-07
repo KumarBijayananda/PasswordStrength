@@ -8,4 +8,9 @@ Also, the messages are color coded to red for weak, orange for medium, and green
 
 ### Technologies used
 * React using useState hook.
+* JavaScript
 * CSS for styling
+
+### Features
+Color-coded message is displayed to the user to let them know the strength of the password.
+
